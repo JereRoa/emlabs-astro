@@ -1,2 +1,19 @@
 @import "tailwindcss";
 
+@theme {
+    --default-font-family: "Poppins", sans-serif;
+
+--color-rose-50: #fff0f4;
+--color-rose-100: #ffe2ea;
+--color-rose-200: #ffcada;
+--color-rose-300: #ff9fbc;
+--color-rose-400: #ff699b;
+--color-rose-500: #fe1e6c;
+--color-rose-600: #ec1269;
+--color-rose-700: #c80859;
+--color-rose-800: #a70a51;
+--color-rose-900: #8f0c4b;
+--color-rose-950: #500125;
+
+
+}
