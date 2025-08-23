@@ -1,9 +1,12 @@
 ---
-import Layout from "../layouts/Layout.astro";
-import bg from "../assets/banner-web.png"
+import Layout from "@/layouts/Layout.astro";
+import bg from "@/assets/banner-web.png"
 ---
 
 <Layout
-title="Inicio"/>
+title="Inicio"
+subtitle="En EM Labs, somos el epicentro de la innovación y el desarrollo"
+bgImage={bg.src}/>
 	<h1>Inicio</h1>
+	<a href="/nosotros">Ir a Nosotros</a>
 </Layout>
