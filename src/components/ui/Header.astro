@@ -19,13 +19,13 @@ const { subtitle } = Astro.props
         style= {{ backgroundImage: `url(${bgImage})` }}
     ></div>
     <div class="absolute inset-0 bg-white/45"></div>
-    <div class="relative max-w-7xl mx-auto pt-10 flex flex-col items-center gap-10 lg:flex-row lg:justify-between">
-        <a href="/">
+    <div class="relative max-w-7xl mx-auto pt-10 ">
+        <div class="flex flex-col items-center gap-10 lg:flex-row lg:justify-between">
+                  <a href="/">
         <Logo class="w-72"/>
         </a>
-        <MainNav />
-
-
-        <h1 >{ subtitle }</h1>
+        <MainNav />  
+        </div>
+        <h1 class="text-4xl font-black uppercase text-black text-center mt-15" >{ subtitle }</h1>
     </div>
 </header>
