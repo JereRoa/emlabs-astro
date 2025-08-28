@@ -1,3 +1,20 @@
-<footer>
-    <h2>Footer</h2>
+---
+import FooterBox from "./FooterBox.astro";
+---
+
+<footer class="bg-rose-500 pt-20">
+    <div class="max-w-7xl mx-auto mt-10">
+        <FooterBox
+            heading="Ubicación"
+        />
+                <FooterBox
+            heading="Servicios"
+        />
+                <FooterBox
+            heading="Horarios"
+        />
+    </div>
+    <p class="py-10 text-center text-rose-200 text-sm">
+        Todos los derechos reservados | EM Labs &copy; {new Date().getFullYear() }
+    </p>
 </footer>
