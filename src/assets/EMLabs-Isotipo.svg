@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 515.57 816.71">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Sfumatura_senza_nome_1062);
+      }
+
+      .cls-2 {
+        fill: url(#Sfumatura_senza_nome_1051);
+      }
+    </style>
+    <linearGradient id="Sfumatura_senza_nome_1062" data-name="Sfumatura senza nome 1062" x1="137.78" y1="465.95" x2="-123.44" y2="195.99" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#791256"/>
+      <stop offset="1" stop-color="#bf1b62"/>
+    </linearGradient>
+    <linearGradient id="Sfumatura_senza_nome_1051" data-name="Sfumatura senza nome 1051" x1="92.08" y1="447.43" x2="-189.73" y2="731.38" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff246d"/>
+      <stop offset=".92" stop-color="#831357"/>
+      <stop offset="1" stop-color="#791256"/>
+    </linearGradient>
+  </defs>
+  <path class="cls-1" d="M22.2,794.51c29.6,29.6,77.6,29.6,107.21,0l278.94-278.94,107.21-107.21-107.21-107.21L129.41,22.2c-29.6-29.6-77.6-29.6-107.21,0h0c-29.6,29.6-29.6,77.6,0,107.21l135.84,135.84c79.04,79.04,79.04,207.18,0,286.21L22.2,687.3c-29.6,29.6-29.6,77.6,0,107.21h0Z"/>
+  <path class="cls-2" d="M175.11,531.99c-1.48,1.48-2.56,3.32-3.9,4.94-1.07,1.28-2.16,2.54-3.26,3.8-3.17,3.66-6.44,7.26-9.91,10.73L22.2,687.3c-29.6,29.6-29.6,77.6,0,107.21s77.6,29.6,107.21,0l278.94-278.94,107.21-107.21-107.21-107.21L129.41,22.2c105.25,105.25,203.8,351.68,45.7,509.78Z"/>
+</svg>

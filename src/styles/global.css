@@ -15,5 +15,17 @@
 --color-rose-900: #8f0c4b;
 --color-rose-950: #500125;
 
+--icon-size: 5rem;
 
+}
+
+@utility logo-icon {
+    content:'';
+    background-image: url("../assets/EMLabs-isotipo.svg");
+    background-size: var(--icon-size);
+    background-position: center;
+    width: var(--icon-size);
+    height: var(--icon-size);
+    display: block;
+    margin-inline: auto;
 }

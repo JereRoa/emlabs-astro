@@ -3,16 +3,23 @@ import FooterBox from "./FooterBox.astro";
 ---
 
 <footer class="bg-rose-500 pt-20">
-    <div class="max-w-7xl mx-auto mt-10">
-        <FooterBox
-            heading="Ubicación"
-        />
-                <FooterBox
-            heading="Servicios"
-        />
-                <FooterBox
-            heading="Horarios"
-        />
+    <div class="max-w-7xl mx-auto mt-10 grid grid-cols-1 lg:grid-cols-3 gap-5">
+        <FooterBox heading="Ubicación">
+            <p>Santiago, Región Metropolitana.</p>
+            <p>Chile</p>
+        </FooterBox>
+        
+        <FooterBox heading="Contacto">
+            <p>Teléfono: +56 9 7915 1879</p>
+            <p>contacto@emlabs.cl</p>
+            <a href="tel:+56 9 7915 1879">Llamar</a>
+        </FooterBox>
+    
+        <FooterBox heading="Horarios">
+            <p>Lun-Vie: 9:00 hrs - 18:30 hrs</p>
+            <p>Sab-Dom: Cerrado</p>
+        </FooterBox>
+
     </div>
     <p class="py-10 text-center text-rose-200 text-sm">
         Todos los derechos reservados | EM Labs &copy; {new Date().getFullYear() }

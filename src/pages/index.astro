@@ -1,5 +1,6 @@
 ---
 import Layout from "@/layouts/Layout.astro";
+import CategoryIconLabel from "@/components/ui/CategoryIconLabel.astro";
 import bg from "@/assets/banner-web.png"
 ---
 
@@ -8,5 +9,21 @@ title="Inicio"
 subtitle="En EM Labs, somos el epicentro de la innovación y el desarrollo"
 bgImage={bg.src}
 >
-	<h1>Inicio</h1>
+	<h2 class="text-rose-700 text-center font-black text-lg uppercase after:logo-icon">Conoce a EM Labs
+	<span class="block text-4xl text-blue-950">Acerca de Nosotros</span>
+	</h2>
+	<p class="text-center text-lg mt-10">Hemos evolucionado para convertirnos en tu socio tecnológico de confianza,
+	 fusionando nuestra visión estratégica con soluciones informáticas de vanguardia que impulsan el crecimiento de tu negocio. 
+	 Más que simples desarrolladores, somos creadores de soluciones que transforman desafíos en oportunidades.</p>
+
+	<p class="text-center text-lg mt-10">Nuestras soluciones son inherentemente modulares y escalables, diseñadas para adaptarse a la evolución de tu negocio, sin importar la industria. 
+	Más allá del desarrollo, nuestro expertise se extiende a la comunicación digital y la estrategia de marca, unificando la tecnología con una narrativa poderosa. 
+	Gracias a la colaboración con nuestra red de agencias familiares, podemos ofrecer un enfoque integral que garantiza que tu 
+	presencia digital no solo sea tecnológicamente sólida, sino también estratégicamente brillante.</p>
+
+	<div class="grid grid-cols-1 lg:grid-cols-3 gap-5">
+	<CategoryIconLabel icon="Icon-1-SVG.svg" text="Asesorías"/>
+	<CategoryIconLabel icon="Icon-2-SVG.svg" text="Tecnología en simple"/>
+	<CategoryIconLabel icon="Icon-3-SVG.svg" text="Ajustado a tu presupuesto"/>
+	</div>
 </Layout>
